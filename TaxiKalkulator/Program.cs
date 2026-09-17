@@ -18,3 +18,12 @@ if (ejszak == true)
     Console.WriteLine($"Fizetendő összeg: {vegosszeg}");
     Console.WriteLine("Sátusz: 20% éjszakai pótlék felszámolva.");
 }
+//4. feladat
+if (ejszak == false)
+{
+    Console.WriteLine("Utas neve: Márton Károly");
+    Console.WriteLine($"Megtett távolság: {tavolsag}");
+    Console.WriteLine($"Alapérték: {osszeg}");
+    Console.WriteLine($"Fizetendő összeg: {osszeg}");
+    Console.WriteLine("Sátusz: 20% éjszakai pótlék nincs.");
+}
