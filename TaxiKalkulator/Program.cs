@@ -5,8 +5,22 @@ double alapdij = 1100;
 double kmdij = 440;
 double potlek = 1.20;
 
-if (ejszak==true)
+double osszeg = kmdij * tavolsag + alapdij;
+double vegosszeg = osszeg * potlek;
+if  (ejszak==true)
 {
-    double osszeg = kmdij * tavolsag + alapdij;
+    Console.WriteLine("Utas neve: Márton Károly");
+    Console.WriteLine($"Megtett távolság: {tavolsag}");
+    Console.WriteLine($"Alapérték: {osszeg}");
+    Console.WriteLine($"Fizetendő összeg: {vegosszeg}");
+    Console.WriteLine("Sátusz: 20% éjszakai pótlék felszámolva.");
+}
 
+if (ejszak==false)
+{
+    Console.WriteLine("Utas neve: Márton Károly");
+    Console.WriteLine($"Megtett távolság: {tavolsag}");
+    Console.WriteLine($"Alapérték: {osszeg}");
+    Console.WriteLine($"Fizetendő összeg: {osszeg}");
+    Console.WriteLine("Sátusz: 20% éjszakai pótlék nincs.");
 }
