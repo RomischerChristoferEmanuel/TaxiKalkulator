@@ -1,6 +1,6 @@
 ﻿string utasnev = "Márton Károly";
 double tavolsag = 14;
-bool ejszak = true;
+bool ejszak = false;
 double alapdij = 1100;
 double kmdij = 440;
 double potlek = 1.20;
